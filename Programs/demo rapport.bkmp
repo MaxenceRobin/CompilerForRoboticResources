@@ -1,0 +1,108 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="ID)[$TGiHk4aF_I.a/9}">maVariable</variable>
+  </variables>
+  <block type="move" id="b`x|x.Ly{+A)gk#%pxcb" x="88" y="12">
+    <field name="direction">forward</field>
+    <field name="speed">normal</field>
+  </block>
+  <block type="controls_if" id="^YlszrF,*F6eRnJHTrw8" x="628" y="8"></block>
+  <block type="logic_boolean" id="idvU_.#BNE~C[Xk1RYzH" x="739" y="9">
+    <field name="BOOL">TRUE</field>
+  </block>
+  <block type="logic_negate" id="FIK3o2j}(?;P^XpwVhoW" x="829" y="10"></block>
+  <block type="math_number" id="F:|l0mfs8f81/kY8`N%e" x="1134" y="14">
+    <field name="NUM">0</field>
+  </block>
+  <block type="move_speed" id="DC|{=0kP3}0XyQ1WIZD?" x="92" y="71">
+    <field name="direction">forward</field>
+    <value name="speed">
+      <shadow type="math_number" id="LFdX]z1.Xeh3Nlb?tDZ3">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="logic_compare" id="cYTJzrF9@Fc+8Y.]oY(^" x="630" y="91">
+    <field name="OP">EQ</field>
+    <value name="A">
+      <shadow type="math_number" id="dD5R,4BZc]*u@658G]=V">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+    <value name="B">
+      <shadow type="math_number" id="li[%kK7/1XAq5V@Re7Ls">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="math_arithmetic" id="EFk;PZs$A[Xo.#prc[^S" x="1134" y="70">
+    <field name="OP">ADD</field>
+    <value name="A">
+      <shadow type="math_number" id="b$Y4)8_n.Hcd@}tE)![y">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+    <value name="B">
+      <shadow type="math_number" id="fs{`;-^{RG,Lab}wLNpD">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="stop" id="Usbu@2/a@1zAGp5H}|Nw" x="93" y="138"></block>
+  <block type="logic_operation" id="IP-vVDuP]zH.+t*2ueLT" x="629" y="154">
+    <field name="OP">AND</field>
+    <value name="A">
+      <shadow type="logic_boolean" id="-GF~eY;xdH@ER!SDp:_L">
+        <field name="BOOL">TRUE</field>
+      </shadow>
+    </value>
+    <value name="B">
+      <shadow type="logic_boolean" id="cFfR8K:E[WWT1B0Xv6aM">
+        <field name="BOOL">TRUE</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="distance_sensor_test" id="-fD5W#.ih):gC;IRm9M[" x="95" y="248">
+    <field name="sensor">one</field>
+    <field name="distance">very_close</field>
+  </block>
+  <block type="distance_sensor_value" id="TXE-?gPlz/3e_DZARo7!" x="99" y="295">
+    <field name="sensor">one</field>
+  </block>
+  <block type="variables_get" id="E/)(dpG@OD6Ba9sm({BW" x="1146" y="251">
+    <field name="VAR" id="ID)[$TGiHk4aF_I.a/9}" variabletype="">maVariable</field>
+  </block>
+  <block type="infinite_loop" id="e0!mWYV+QJrVV80h5mM*" x="640" y="298"></block>
+  <block type="variables_set" id="Xe[1Q`z!LQoOx.y,tcG=" x="1139" y="301">
+    <field name="VAR" id="ID)[$TGiHk4aF_I.a/9}" variabletype="">maVariable</field>
+  </block>
+  <block type="rgb_led_on" id="8E{+%FS+2USOxi0Bx$@6" x="97" y="405">
+    <value name="color">
+      <shadow type="colour_picker" id="6b~]1P?otA0{ixp}Iwg8">
+        <field name="COLOUR">#ff0000</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="controls_whileUntil" id="SFSIn#8DW5A85%ViH1c#" x="638" y="380">
+    <field name="MODE">WHILE</field>
+  </block>
+  <block type="colour_picker" id="7J%7ADFiuveS#o$~OM$$" x="304" y="405">
+    <field name="COLOUR">#ff0000</field>
+  </block>
+  <block type="random_color" id="~v2ubD1M#KbFQvzn08X2" x="368" y="405"></block>
+  <block type="rgb_led_off" id="U|9~uG(is~:c_UG}P.oE" x="96" y="460"></block>
+  <block type="loop_counter" id="Kc4x3.@bTB2}Dg|1HGH]" x="639" y="472">
+    <value name="counter">
+      <shadow type="math_number" id="e=(x|SM4E=SCLiHLmLUG">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="wait" id="d8.ndG*S[{3C7OEIKYXP" x="98" y="593">
+    <value name="duration">
+      <shadow type="math_number" id="]TNx6:dJ]~A[h^z@SHM=">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+  </block>
+</xml>

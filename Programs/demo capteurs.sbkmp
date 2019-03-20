@@ -1,0 +1,48 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="infinite_loop" id="hjlCZOh;M*`|}p^d)baa" x="208" y="155">
+    <statement name="statements">
+      <block type="controls_if" id="jOTr[)WLS!P.Yn}qhT3n">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="distance_sensor_test" id="iUO$T_ee6S_.,@c;ye82">
+            <field name="sensor">one</field>
+            <field name="distance">very_close</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="rgb_led_on" id="3*s3]SqF|vc?w6/c2FZW">
+            <value name="color">
+              <shadow type="colour_picker" id="BWD:wsnk_asnIRSv}sbx">
+                <field name="COLOUR">#ff0000</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="distance_sensor_test" id="%q?9lLUCReG611^cxj*)">
+            <field name="sensor">one</field>
+            <field name="distance">close</field>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="rgb_led_on" id="9FZ+%j~#T}Pq)Q(RW=_;">
+            <value name="color">
+              <shadow type="colour_picker" id="rTu@Pi$W,sudpqg?_bS5">
+                <field name="COLOUR">#ffff00</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="rgb_led_on" id="(_EFNJiw[cg|vBuXO62P">
+            <value name="color">
+              <shadow type="colour_picker" id="W=e4`e?8!E^G^9zM~|L(">
+                <field name="COLOUR">#33ff33</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>

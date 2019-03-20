@@ -1,0 +1,4 @@
+pycom.heartbeat(True)
+
+import sys
+sys.exit('end')
